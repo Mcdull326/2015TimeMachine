@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Data;
-using System.Data.SqlClient;
+using System.Data.OleDb;
 using System.Configuration;
 
 namespace Common
@@ -28,9 +28,9 @@ namespace Common
         {
             int returnValue;
 
-            using (SqlConnection connection = new SqlConnection(connectionString))
+            using (OleDbConnection connection = new OleDbConnection(connectionString))
             {
-                SqlCommand command = new SqlCommand(commandText, connection);
+                OleDbCommand command = new OleDbCommand(commandText, connection);
                 command.CommandType = commandType;
                 command.Parameters.AddRange(commandParameters);
 
@@ -46,9 +46,9 @@ namespace Common
         {
             object returnValue;
 
-            using (SqlConnection connection = new SqlConnection(connectionString))
+            using (OleDbConnection connection = new OleDbConnection(connectionString))
             {
-                SqlCommand command = new SqlCommand(commandText, connection);
+                OleDbCommand command = new OleDbCommand(commandText, connection);
                 command.CommandType = commandType;
                 command.Parameters.AddRange(commandParameters);
 
@@ -62,9 +62,9 @@ namespace Common
 
         public IDataReader ExecuteReader(string connectionString, CommandType commandType, string commandText, params IDataParameter[] commandParameters)
         {
-            SqlConnection connection = new SqlConnection(connectionString);
+            OleDbConnection connection = new OleDbConnection(connectionString);
 
-            SqlCommand command = new SqlCommand(commandText, connection);
+            OleDbCommand command = new OleDbCommand(commandText, connection);
             command.CommandType = commandType;
             command.Parameters.AddRange(commandParameters);
 
@@ -75,10 +75,10 @@ namespace Common
         public DataTable ExcuteDataTable(string connectionString, CommandType commandType, string commandText, params IDataParameter[] commandParameters)
         {
             DataTable ThisDataTable = new DataTable();
-            SqlConnection conn = new SqlConnection(connectionString);
-            SqlCommand cmd = new SqlCommand(commandText, conn);
+            OleDbConnection conn = new OleDbConnection(connectionString);
+            OleDbCommand cmd = new OleDbCommand(commandText, conn);
             cmd.CommandType = commandType;
-            SqlDataAdapter DataAdaper = new SqlDataAdapter(cmd);
+            OleDbDataAdapter DataAdaper = new OleDbDataAdapter(cmd);
             cmd.Parameters.AddRange(commandParameters);
             conn.Open();
             DataAdaper.Fill(ThisDataTable);
@@ -90,13 +90,13 @@ namespace Common
         {
             DataSet set = new DataSet();
 
-            using (SqlConnection connection = new SqlConnection(connectionString))
+            using (OleDbConnection connection = new OleDbConnection(connectionString))
             {
-                SqlCommand command = new SqlCommand(commandText, connection);
+                OleDbCommand command = new OleDbCommand(commandText, connection);
                 command.CommandType = commandType;
                 command.Parameters.AddRange(commandParameters);
 
-                SqlDataAdapter adapter = new SqlDataAdapter(command);
+                OleDbDataAdapter adapter = new OleDbDataAdapter(command);
 
                 connection.Open();
                 adapter.Fill(set, srcTable);

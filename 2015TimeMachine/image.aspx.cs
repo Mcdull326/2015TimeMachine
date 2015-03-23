@@ -19,7 +19,6 @@ namespace firewood
         {
             string str = getRandomValidate(4);
             Session["check"] = str;
-            //这一步是为了将验证码写入Session，进行验证，不能缺省，也可一使用cookie
             getImageValidate(str);
         }
         //得到随机字符串,长度自己定义
