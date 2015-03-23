@@ -1,7 +1,7 @@
-/2015TimeMachine/bin/*
-/BADL/bin/*
-/Common/bin/*
-/Enitity/bin/*
+/2015TimeMachine/bin/
+/BADL/bin/
+/Common/bin/
+/Enitity/bin/
 
 # Windows image file caches
 Thumbs.db
