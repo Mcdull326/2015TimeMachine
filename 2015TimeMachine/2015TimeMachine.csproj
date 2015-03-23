@@ -65,10 +65,57 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="checkNum.aspx" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\common.css" />
+    <Content Include="image.aspx" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\jqBootstrapValidation.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\main.js" />
+    <Content Include="js\respond.min.js" />
+    <Content Include="login.aspx" />
+    <Content Include="register.aspx" />
+    <Content Include="resetPwd.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="checkNum.aspx.cs">
+      <DependentUpon>checkNum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="checkNum.aspx.designer.cs">
+      <DependentUpon>checkNum.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="image.aspx.cs">
+      <DependentUpon>image.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="image.aspx.designer.cs">
+      <DependentUpon>image.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="register.aspx.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="register.aspx.designer.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="resetPwd.aspx.cs">
+      <DependentUpon>resetPwd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="resetPwd.aspx.designer.cs">
+      <DependentUpon>resetPwd.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BADL\BADL.csproj">

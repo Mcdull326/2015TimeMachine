@@ -1,0 +1,12 @@
+F:\visual studio 2013\Projects\2015TimeMachine\2015TimeMachine\obj\Debug\2015TimeMachine.csprojResolveAssemblyReference.cache
+F:\visual studio 2013\Projects\2015TimeMachine\2015TimeMachine\bin\2015TimeMachine.dll.config
+F:\visual studio 2013\Projects\2015TimeMachine\2015TimeMachine\bin\2015TimeMachine.dll
+F:\visual studio 2013\Projects\2015TimeMachine\2015TimeMachine\bin\2015TimeMachine.pdb
+F:\visual studio 2013\Projects\2015TimeMachine\2015TimeMachine\bin\BADL.dll
+F:\visual studio 2013\Projects\2015TimeMachine\2015TimeMachine\bin\Common.dll
+F:\visual studio 2013\Projects\2015TimeMachine\2015TimeMachine\bin\Entity.dll
+F:\visual studio 2013\Projects\2015TimeMachine\2015TimeMachine\bin\BADL.pdb
+F:\visual studio 2013\Projects\2015TimeMachine\2015TimeMachine\bin\Common.pdb
+F:\visual studio 2013\Projects\2015TimeMachine\2015TimeMachine\bin\Entity.pdb
+F:\visual studio 2013\Projects\2015TimeMachine\2015TimeMachine\obj\Debug\2015TimeMachine.dll
+F:\visual studio 2013\Projects\2015TimeMachine\2015TimeMachine\obj\Debug\2015TimeMachine.pdb

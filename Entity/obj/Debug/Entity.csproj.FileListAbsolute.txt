@@ -1,0 +1,4 @@
+F:\visual studio 2013\Projects\2015TimeMachine\Entity\bin\Debug\Entity.dll
+F:\visual studio 2013\Projects\2015TimeMachine\Entity\bin\Debug\Entity.pdb
+F:\visual studio 2013\Projects\2015TimeMachine\Entity\obj\Debug\Entity.dll
+F:\visual studio 2013\Projects\2015TimeMachine\Entity\obj\Debug\Entity.pdb

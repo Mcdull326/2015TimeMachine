@@ -1,0 +1,9 @@
+F:\visual studio 2013\Projects\2015TimeMachine\BADL\bin\Debug\BADL.dll
+F:\visual studio 2013\Projects\2015TimeMachine\BADL\bin\Debug\BADL.pdb
+F:\visual studio 2013\Projects\2015TimeMachine\BADL\bin\Debug\Common.dll
+F:\visual studio 2013\Projects\2015TimeMachine\BADL\bin\Debug\Entity.dll
+F:\visual studio 2013\Projects\2015TimeMachine\BADL\bin\Debug\Common.pdb
+F:\visual studio 2013\Projects\2015TimeMachine\BADL\bin\Debug\Entity.pdb
+F:\visual studio 2013\Projects\2015TimeMachine\BADL\obj\Debug\BADL.csprojResolveAssemblyReference.cache
+F:\visual studio 2013\Projects\2015TimeMachine\BADL\obj\Debug\BADL.dll
+F:\visual studio 2013\Projects\2015TimeMachine\BADL\obj\Debug\BADL.pdb
