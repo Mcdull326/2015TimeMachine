@@ -146,6 +146,25 @@ function uCheckPost() {
         }
     });
 }
+function doPost(url,inputData) {
+    //var uCheck = $('#uCheck').val();
+    //var a = "{'uCheck':'" + uCheck + "'}";
+    $.ajax({
+        type: "Post",
+        url: url,
+        data: inputData,
+        contentType: "application/json; charset=gb2312",
+        dataType: "json",
+        beforesend: function () { },
+        success: function (data) {
+            var result = data.d;
+            sthExit(result);
+        },
+        error: function (err) {
+            alert(err);
+        }
+    });
+}
 
 function sthExit(n) {
     /*var n = data.split(';');

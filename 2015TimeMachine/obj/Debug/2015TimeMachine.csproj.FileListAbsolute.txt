@@ -10,3 +10,15 @@ F:\visual studio 2013\Projects\2015TimeMachine\2015TimeMachine\bin\Common.pdb
 F:\visual studio 2013\Projects\2015TimeMachine\2015TimeMachine\bin\Entity.pdb
 F:\visual studio 2013\Projects\2015TimeMachine\2015TimeMachine\obj\Debug\2015TimeMachine.dll
 F:\visual studio 2013\Projects\2015TimeMachine\2015TimeMachine\obj\Debug\2015TimeMachine.pdb
+D:\Code\GHY\2015TimeMachine\2015TimeMachine\bin\2015TimeMachine.dll.config
+D:\Code\GHY\2015TimeMachine\2015TimeMachine\bin\2015TimeMachine.dll
+D:\Code\GHY\2015TimeMachine\2015TimeMachine\bin\2015TimeMachine.pdb
+D:\Code\GHY\2015TimeMachine\2015TimeMachine\bin\BADL.dll
+D:\Code\GHY\2015TimeMachine\2015TimeMachine\bin\Common.dll
+D:\Code\GHY\2015TimeMachine\2015TimeMachine\bin\Entity.dll
+D:\Code\GHY\2015TimeMachine\2015TimeMachine\bin\BADL.pdb
+D:\Code\GHY\2015TimeMachine\2015TimeMachine\bin\Common.pdb
+D:\Code\GHY\2015TimeMachine\2015TimeMachine\bin\Entity.pdb
+D:\Code\GHY\2015TimeMachine\2015TimeMachine\obj\Debug\2015TimeMachine.csprojResolveAssemblyReference.cache
+D:\Code\GHY\2015TimeMachine\2015TimeMachine\obj\Debug\2015TimeMachine.dll
+D:\Code\GHY\2015TimeMachine\2015TimeMachine\obj\Debug\2015TimeMachine.pdb

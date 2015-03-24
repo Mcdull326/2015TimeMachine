@@ -3,3 +3,7 @@ F:\visual studio 2013\Projects\2015TimeMachine\Common\bin\Debug\Common.pdb
 F:\visual studio 2013\Projects\2015TimeMachine\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
 F:\visual studio 2013\Projects\2015TimeMachine\Common\obj\Debug\Common.dll
 F:\visual studio 2013\Projects\2015TimeMachine\Common\obj\Debug\Common.pdb
+D:\Code\GHY\2015TimeMachine\Common\bin\Debug\Common.dll
+D:\Code\GHY\2015TimeMachine\Common\bin\Debug\Common.pdb
+D:\Code\GHY\2015TimeMachine\Common\obj\Debug\Common.dll
+D:\Code\GHY\2015TimeMachine\Common\obj\Debug\Common.pdb
